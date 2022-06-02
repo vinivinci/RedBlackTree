@@ -23,7 +23,8 @@ class RedBlackTree {
   // Preorder
   void preOrderHelper(NodePtr node) {
     if (node != TNULL) {
-      cout << node->data << " ";
+      string sColor = node->color ? "RED" : "BLACK";
+      cout <<"("<< node->data<<" "<< sColor << ")";
       preOrderHelper(node->left);
       preOrderHelper(node->right);
     }
@@ -33,8 +34,10 @@ class RedBlackTree {
   void inOrderHelper(NodePtr node) {
     if (node != TNULL) {
       inOrderHelper(node->left);
-      cout << node->data << " ";
+      string sColor = node->color ? "RED" : "BLACK";
+      cout <<"("<< node->data<<" "<< sColor << ")";
       inOrderHelper(node->right);
+      
     }
   }
 
@@ -43,7 +46,9 @@ class RedBlackTree {
     if (node != TNULL) {
       postOrderHelper(node->left);
       postOrderHelper(node->right);
-      cout << node->data << " ";
+      string sColor = node->color ? "RED" : "BLACK";
+      cout <<"("<< node->data<<" "<< sColor << ")";
+      
     }
   }
 

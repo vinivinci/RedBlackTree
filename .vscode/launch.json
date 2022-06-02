@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/puc/red-black-tree",
-      "program": "/home/puc/red-black-tree/Main",
+      "cwd": "/home/puc/Área de Trabalho/RedBlackTree",
+      "program": "/home/puc/Área de Trabalho/RedBlackTree/Main",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
